@@ -4,6 +4,7 @@ from openpyxl.chart import BarChart, Reference
 
 
 def process_workbook(filename):
+    # load the file
     wb = xl.load_workbook(filename)
     sheet = wb['Sheet1']
 
